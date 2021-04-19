@@ -1,30 +1,35 @@
 
-.gallery{ text-align: center;
+body{
+  text-align: center;
+  background-color: #a83e32;
+}
+.gallery{ align-content: center;
+  display: flex;
+  flex-direction: column;
+    flex-flow: column wrap;
+    height: 1000px;
+    width: 80%;
+    margin: auto;
 }
 
 
 .image{
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 22%;
+width: 20%;
+height: auto;
+margin: 5px;
 }
 
 h1{
   text-align: center;
   font-family: 'Cedarville Cursive', cursive;
   margin-top:30px;
+  font-size: 20px;
+  color: white;
 }
 
-@media screen and (max-width: 800px){
-  .image{
-    width:45%;
-  }
-
-}
-
-@media screen and (max-width: 600px){
-  .image{
-    width:90%;
-  }
-
+h2{
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 15px;
+  color: white;
 }
